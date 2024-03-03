@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="on()">Table Marksheet </button>
+    <script>
+        document.write("<h3>1. Write a program to take a number in a variable, do therequired arithmetic to display the following result in your browser:</h3>")
+    var a=5;
+    document.write("Result:"+"<br>")
+document.write("The Value of A is a:" +a+"<br>")
+document.write("-----------------------------"+"<br>")
+document.write("The Value of ++a is "+ ++a +"<br>")
+document.write("Now The Value Is "+ a +"<br>")
+document.write("-----------------------------"+"<br>")
+document.write("The Value of a++ is "+ a++ +"<br>")
+document.write("Now The Value Is "+ a+"<br>")
+document.write("-----------------------------"+"<br>")
+document.write("Now The Value --a Is "+ --a+ "<br>")
+document.write("Now The Value a Is "+ a+"<br>")
+document.write("-----------------------------"+"<br>")
+document.write("Now The Value a-- Is "+ a + "<br>")
+document.write("Now The Value a Is "+ --a +"<br>")
+document.write("<h3>2.What will be the output in variables a, b & result after execution of the following script:</h3>")
+var b=2;
+var c=1;
+//            1  - 0  +  1  + 1
+var b=2;
+var c=1;
+//            1  - 0  +  1  + 1
+var result = --b - --c + ++c + c--;
+document.write(result +"<br>")
+document.write("marks"+"<br>")
+// document.write("<h3>3. Table Marksheet</h3>")
+function on(){
+
+
+var sn1=prompt("ENTER SUBJECT NAME");
+var sn2=prompt("ENTER SUBJECT NAME");
+var sn3=prompt("ENTER SUBJECT NAME");
+var msn1=prompt("ENTER SUBJECT NUM");
+var msn2=prompt("ENTER SUBJECT NUM");
+var msn3=prompt("ENTER SUBJECT NUM");
+var om=100;
+document.write("Sub " +"|" + "num " +"" + " Obt" +"|"+" perc "+"<br>")
+document.write( sn1     +" |" + om +"" + "       "+  "   |" +  msn1  +" | "+ (msn1*100/om +"%")+"<br>")
+document.write("<br>");
+document.write( sn2     +" |" + om +"" + "       "+  "   |" +  msn2  +" | "+ (msn2*100/om +"%")+"<br>")
+document.write("<br>");
+document.write( sn3     +" |" + om +"" + "       "+  "   |" +  msn3  +" | "+ (msn3*100/om +"%")+"<br>")
+}
+</script>
+</body>
+</html>
